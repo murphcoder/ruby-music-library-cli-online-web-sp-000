@@ -289,8 +289,6 @@ class MusicLibraryController
     input = gets.strip.to_i
     if song_sort[input - 1] != nil
       puts "Playing #{song_sort[input - 1].name} by #{song_sort[input - 1].artist.name}"
-    else
-      play_song
     end
   end
   
