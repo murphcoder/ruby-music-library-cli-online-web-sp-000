@@ -303,8 +303,20 @@ class MusicLibraryController
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
     choice = gets.strip
-    if choice != "exit"
-      self.call
+    if choice == "list songs"
+      list_songs
+      elsif choice == "list artists"
+      list_artists
+      elsif choice == "list genres"
+      list_genres
+      elsif choice == "list artist"
+      list_songs_by_artist
+      elsif choice == "list genre"
+      list_songs_by_genre
+      elsif choice == "play song"
+      play_song
+    else
+      call
     end
   end
   
