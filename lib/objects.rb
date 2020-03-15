@@ -316,7 +316,6 @@ class MusicLibraryController
       elsif choice == "play song"
       play_song
       elsif choice == "exit"
-      next
     else
       call
     end
