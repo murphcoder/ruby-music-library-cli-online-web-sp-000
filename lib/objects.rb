@@ -315,8 +315,6 @@ class MusicLibraryController
       list_songs_by_genre
       elsif choice == "play song"
       play_song
-    else
-      call
     end
   end
   
